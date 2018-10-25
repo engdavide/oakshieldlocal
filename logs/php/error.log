@@ -1,0 +1,12 @@
+[22-Oct-2018 02:01:59 UTC] PHP Warning:  Error while sending QUERY packet. PID=5941 in /app/public/wp-includes/wp-db.php on line 1924
+[23-Oct-2018 20:00:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_footerhome() in /app/public/wp-content/themes/underscore/page-templates/template-home.php:94
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/underscore/page-templates/template-home.php on line 94
+[23-Oct-2018 20:02:49 UTC] PHP Warning:  Use of undefined constant footer - assumed 'footer' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/underscore/page-templates/template-home.php on line 94
+[23-Oct-2018 20:02:49 UTC] PHP Warning:  Use of undefined constant home - assumed 'home' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/underscore/page-templates/template-home.php on line 94
+[23-Oct-2018 20:02:49 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/underscore/page-templates/template-home.php on line 94
+[23-Oct-2018 20:02:49 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/underscore/page-templates/template-home.php on line 94
